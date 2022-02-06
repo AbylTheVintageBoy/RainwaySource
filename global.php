@@ -1,5 +1,5 @@
 <?php
-if($usr['Admin'] == "false"){
+if($usr['Admin'] == "true"){
 	header('location:/maintenance.html');
 }
 
